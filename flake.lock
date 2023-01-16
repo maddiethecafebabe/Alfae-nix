@@ -1,0 +1,43 @@
+{
+  "nodes": {
+    "alfae": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1673875930,
+        "narHash": "sha256-MUs1mfOqwO1TB5LvM1WBTg3NywtEQRKihfVrJ6OuGME=",
+        "owner": "suchmememanyskill",
+        "repo": "Alfae",
+        "rev": "fcfc4e20d49553befba0ae4119ba4caea43a6e75",
+        "type": "github"
+      },
+      "original": {
+        "owner": "suchmememanyskill",
+        "repo": "Alfae",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1673869021,
+        "narHash": "sha256-SkuFSCubHMNhAlJJBjCTnXR861SK5qXFfHkwxH16kkQ=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "2cae716942d95798fc21f31f1ec6eb91393d029f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "alfae": "alfae",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
